@@ -1,6 +1,6 @@
 --- 
 title: "A Minimal Book Example"
-author: "Isabel Fernandez, Luis Guillermo cortés, Jhonny Alejandro Cardenas Rojas :)"
+author: "Isabel Fernandez, Luis Guillermo cortés, Jhonny Alejandro Cardenas Rojas"
 date: "`r Sys.Date()`"
 output: pdf_document
 documentclass: book
