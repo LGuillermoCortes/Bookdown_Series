@@ -3,7 +3,9 @@ output:
   pdf_document: default
   html_document: default
 ---
+
 # Index
+
 --- 
 title: "Análisis de series de tiempo - IPC en Colombia"
 author: "Isabel Fernandez, Luis Guillermo cortés, Jhonny Alejandro Cardenas Rojas"
@@ -14,8 +16,6 @@ output:
     df_print: paged
 documentclass: book
 bibliography:
-- book.bib
-- packages.bib
 description: |
   "Se presenta este libro como trabajo principal de Análisis de series de tiempo."
 link-citations: true
@@ -45,7 +45,7 @@ Data<-read.csv("Datos.csv")
 
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 library(dplyr)
-glimpse(rotacion)
+glimpse(Data)
 ```
 # **Descripción de la base de datos**
 
@@ -56,7 +56,7 @@ A continuación se define una tabla la cual indica el tipo de adecuado de cada u
 ```{r echo=TRUE, message=FALSE, warning=FALSE}
 Resumen_variables<-data.frame(
   Variable= c("Mes","IPC","DTF","usura E.A.","usura M.V.","usura DTF","usura IPC"),
-  Tipo_variable= c("Fecha","Numerica","Numerica","Numerica","Numerica","Numerica","Numerica"),
+  Tipo_variable= c("Fecha","Numerica","Numerica","Numerica","Numerica","Numerica","Numerica")
   )
 print(Resumen_variables)
 ```
