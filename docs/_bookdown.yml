@@ -1,0 +1,8 @@
+book_filename: "Bookdown_series"
+outputdir: docs
+delete_merged_file: true
+edit: https://github.com/LGuillermoCortes/Bookdown_Series.git
+view: https://github.com/LGuillermoCortes/Bookdown_Series.git
+language:
+  ui:
+    chapter_name: "Chapter "
