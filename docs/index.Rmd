@@ -23,13 +23,18 @@ github-repo: https://github.com/LGuillermoCortes/Bookdown_Series.git
 site: bookdown::bookdown_site
 ---
 
+# **Propuesta**
 
-Propuesta:
-La propuesta se enfocará en el análisis de la serie de tiempo del Índice de Precios al Consumidor (IPC)  de Colombia, suministrada por el DANE, la cual contiene datos desde el 1 de julio de 1955 hasta el 1 de octubre de 2024 con una frecuencia mensual. El IPC es un indicador clave para medir la variación de los precios de una canasta de bienes y servicios en el tiempo, y es fundamental para el análisis económico, la toma de decisiones políticas y la planificación financiera.
+La propuesta se enfocará en el análisis de la serie de tiempo de la variacion anual del Índice de Precios al Consumidor (IPC) de Colombia, suministrada por el DANE, la cual contiene datos desde el 1 de julio de 1955 hasta el 1 de octubre de 2024 con una frecuencia mensual. El IPC es un indicador clave para medir la variación de los precios de una canasta de bienes y servicios en el tiempo, y es fundamental para el análisis económico, la toma de decisiones políticas y la planificación financiera.
 
-Fuente:  
+# **Referencia**  
 DANE -  https://sitios.dane.gov.co/ipc/visorIPC/#!/
 
-Herramientas utilizadas:
+# **Herramientas utilizadas**
+
 Para la publicación del libro Bookdown, se utilizó R Studio, en el cual se cargaron los datos a trabajar, y posteriormente se cargan a la plataforma GitHub.
+
+```{r}
+Data<-read.csv("Datos.csv")
+```
 
