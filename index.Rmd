@@ -5,8 +5,8 @@ output:
 ---
 # Index
 --- 
-title: Análisis de series de tiempo - IPC en Colombia
-author: Isabel Fernandez, Luis Guillermo cortés, Jhonny Cardenas
+title: "Análisis de series de tiempo - IPC en Colombia"
+author: "Isabel Fernandez, Luis Guillermo cortés, Jhonny Alejandro Cardenas Rojas"
 date: "`r Sys.Date()`"
 output:
   pdf_document: default
