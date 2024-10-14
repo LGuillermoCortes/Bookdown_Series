@@ -37,4 +37,7 @@ Para la publicación del libro Bookdown, se utilizó R Studio, en el cual se car
 ```{r}
 Data<-read.csv("Datos.csv")
 ```
+```{r}
+head(Data)
+```
 
