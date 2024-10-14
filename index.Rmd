@@ -5,13 +5,8 @@ output:
 ---
 # Index
 --- 
-<<<<<<< HEAD
-title: "Análisis de series de tiempo - IPC en Colombia"
-author: "Isabel Fernandez, Luis Guillermo cortés"
-=======
-title: "A Minimal Book Example"
-author: "Isabel Fernandez, Luis Guillermo cortés, Jhonny Alejandro Cardenas Rojas"
->>>>>>> a5acdd17bd0f4f96e792acb7b5be9978d6cbc6cb
+title: Análisis de series de tiempo - IPC en Colombia
+author: Isabel Fernandez, Luis Guillermo cortés, Jhonny Cardenas
 date: "`r Sys.Date()`"
 output:
   pdf_document: default
