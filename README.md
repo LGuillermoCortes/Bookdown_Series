@@ -1,14 +1,9 @@
-Welcome! 
+Bienvenido! 
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+Este libro se elabora para el análisis de series temporales del IPC en Colombia
 
-This template provides a skeleton file structure that you can edit to create your book. 
+Recursos:
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
+El libro **bookdown**: https://lguillermocortes.github.io/Bookdown_Series/
 
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
 # Bookdown_Series

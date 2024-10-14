@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # Index
 
 ---
@@ -11,6 +6,8 @@ author: "Isabel Fernandez, Luis Guillermo Cortés, Jhonny Alejandro Cardenas Roj
 date: "`r Sys.Date()`"
 output: 
   pdf_document: default
+  html_document: 
+    df_print: paged
 documentclass: book
 bibliography:
 - book.bib
